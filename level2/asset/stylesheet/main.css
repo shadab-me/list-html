@@ -52,14 +52,25 @@ table {
 h1{
     font-size: 36px;
 }
-
+h2{
+font-size: 28px;
+}
+h3{
+    font-size: 24px;
+}
+h4{
+    font-size: 20px;
+}
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
-
+a{
+    text-decoration: none;
+    color: white;
+}
 .mb-200{
     margin-bottom: 200px;
 }
@@ -92,4 +103,7 @@ h1{
     color: white;
     padding: 15px;
     font-weight: bold;
+}
+.justify-between{
+    justify-content: space-between;
 }
