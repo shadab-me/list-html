@@ -87,9 +87,13 @@ a{
     text-align: center;
 }
 .hero{
-    background-image: url('/level2/asset/images/bg.jpg');
-    background-size: cover;
-    height: 480px;
+    text-align: center;
+    padding: 170px 0 130px;
+    background-color: #323347;
+    background-image: url(../images/banner.svg);
+    background-position: 0 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .hero-text{
     position: absolute;
@@ -99,11 +103,28 @@ a{
     padding: 20px;
     text-transform: uppercase;
 }
-.hero-text h1{
+.hero-text {
     color: white;
-    padding: 15px;
+}
+.hero-text h1{
+     padding: 15px;
     font-weight: bold;
 }
 .justify-between{
     justify-content: space-between;
+}
+.logo{
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav-bar li a{
+    text-transform: uppercase;
+}
+header{
+    padding-top: 30px;
+}
+.nav-bar li{
+    padding-left: 20px;
+    display: block;
 }
