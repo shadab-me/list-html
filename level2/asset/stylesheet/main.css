@@ -47,14 +47,49 @@ table {
 }
 
 
-/*
-=============================================================
-Grid
-=============================================================
-*/
+ /*typography */
+
+h1{
+    font-size: 36px;
+}
+
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+.mb-200{
+    margin-bottom: 200px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    flex-flow: row wrap;
+}
+.main-heading{
+    text-align: center;
+}
+.hero{
+    background-image: url('/level2/asset/images/bg.jpg');
+    background-size: cover;
+    height: 480px;
+}
+.hero-text{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.hero-text h1{
+    color: white;
+    padding: 15px;
+    font-weight: bold;
 }
