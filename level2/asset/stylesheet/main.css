@@ -188,13 +188,17 @@ a {
 .hero {
   text-align: center;
   background-color: #323347;
-  background-image: url(../images/bg.jpg);
+  background-image: url(../images/banner.svg);
   background-position: 0 100%;
   background-size: contain;
   background-repeat: no-repeat;
   margin-bottom: 66px;
 }
-
+.fa-chevron-down {
+  font-size: 12px;
+  margin-right: 5px;
+  color: #696b8a;
+}
 
 .hero-text {
   color: white;
@@ -224,6 +228,7 @@ a {
 .logo {
   color: white;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 header {
@@ -232,6 +237,7 @@ header {
 
 .nav-bar li a {
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .nav-bar li {
@@ -525,9 +531,7 @@ Contact
   opacity: 0;
   position: absolute;
   display: none;
-  background-color: transparent;
- clip-path: polygon(50% 0%, 100% 11%, 100% 35%, 100% 70%, 100% 100%, 50% 100%, 0 100%, 0% 70%, 0% 35%, 0 10%);
-
+  
 }
 
 li:hover > .dropdown,
@@ -536,12 +540,20 @@ li:hover > .dropdown,
   opacity: 1;
   display: block;
 }
- .submenu{
-   padding:15px;
-   width: 120px;
-    display: block;
- }
- .submenu-link{
-   color: black;
-   display: block;
- }
+.submenu {
+   width: 100%;
+  padding: 6px;
+  margin: 7px;
+}
+
+.submenu a {
+  font-size: 16px;
+  text-transform: capitalize;
+
+}
+
+.submenu a:hover {
+  background-color: #9596b3;
+  transition: 1s ease-in;
+
+}
