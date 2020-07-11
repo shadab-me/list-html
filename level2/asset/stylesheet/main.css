@@ -192,6 +192,7 @@ a {
   background-position: 0 100%;
   background-size: contain;
   background-repeat: no-repeat;
+  margin-bottom: 66px;
 }
 
 
@@ -251,7 +252,9 @@ header {
 }
 
 /*lines */
-
+.lines{
+  margin-top: 6px;
+}
 .line-small{
   width: 130px;
  
@@ -281,7 +284,16 @@ header {
   border: 0;
   margin: 4px;
 }
-
+.section-title {
+  margin-bottom: 25px;
+}
+.title-text{
+   text-align: center;
+   width: 60%;
+   margin: 0 auto;
+   margin-bottom: 50px;
+   line-height: 1.5;
+}
 .icon {
   text-align: center;
   margin-bottom: 20px;
@@ -342,11 +354,13 @@ header {
 
 .article {
   background-color: #fff;
+  padding-top: 66px;
 }
 
 article {
   width: 33%;
   text-align: center;
+
 }
 
 article h3 {
