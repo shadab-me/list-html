@@ -400,7 +400,9 @@ article p {
 }
 
 
-
+.contact{
+  margin-top: 66px;
+}
 .footer-menu-item {
   padding: 20px;
   text-align: center;
@@ -408,6 +410,7 @@ article p {
 
 .footer {
   padding: 66px 0;
+  background-color: white;
 }
 
 .footer-nav {
@@ -511,4 +514,7 @@ Contact
 
 .fa-instagram {
   background-color: #3492D9;
+}
+.li{
+  background-image: linear-gradient(to top right,#525360 50%, #5B5C6B 50%);
 }
